@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title></title>
+		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400,600&subset=latin,cyrillic' rel='stylesheet' type='text/css'> 
+		<link href="css/shoot.css" rel="stylesheet" type="text/css">
+		<!--[if lte IE 8]> <link href= "css/ie6-8.css" rel= "stylesheet" media= "all" /> <![endif]-->
+
+
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+		<script type="text/javascript" src="js/typeahead.bundle.js"></script>
+		<script type="text/javascript" src="js/datepicker.js"></script>
+		<!--script type="text/javascript" src="js/ro-RO/rezon-form-add.js"></script-->
+		<script type="text/javascript" src="js/rezon-form.js"></script>
+    
+		<link href="css/fonts.min.css" rel="stylesheet" type="text/css">
+		<link href="css/main.min.css" rel="stylesheet" type="text/css">
+	
+    </head>
+	
+<div class="main_wrapper">
+	<div class="page_title">	
+		<h1>Шукайте та порівнюйте дешеві авіаквитки</h1>
+	</div>
+
+<body>
+
+<style>
+    .wrap{
+        position: absolute;
+        left: 0; top: 0; bottom: 0; right: 0;
+        margin: auto;
+        height: 300px;
+        width: 1400px;
+        background-color: lime;
+    }
+</style>
+
+
+
+<div id="galileoForm"></div>
+<script type="text/javascript">
+    //Главная страница
+    var galileoProject = "https://aven-tour.galileo.com.ua";
+    //Страница с Авиа формой
+    //var galileoProject = "https://aven-tour.galileo.com.ua/DEFAULT_LANGUAGE/AirTickets"; 
+    (function(d) {
+        d.head.appendChild((function() {
+            var s = d.createElement('script');
+            s.src = 'https://bo.rezonuniversal.com/Scripts/iframe.js';
+            s.defer = true;
+            return s;
+        })());
+    })(document);
+</script>
+
+<script>var scr = {"scripts":[
+    {"src" : "js/jquery-3.1.1.min.js", "async" : false},
+    {"src" : "js/main.js", "async" : false}
+    ]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+    </script>
+
+</body>
+</html>

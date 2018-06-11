@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+
+#logo 
+{
+	background-image: url('../img/ie/logo.png');
+}
+#rezon-forms .radio_bull 
+{
+	background-image: url(../img/ie/radio_bull.png);
+}
+#rezon-forms .check_bull 
+{
+	background-image: url(../img/ie/check_bull.png);
+}
+#rezon-forms .passengers .switch .passengers-icon 
+{
+	background-image: url(../img/ie/i_age.png);
+}
+#rezon-forms a.clear_form:before 
+{
+    background-image: url(../img/ie/i_clear.png);
+}
+#rezon-forms .datepicker-button 
+{
+    background-image: url(../img/ie/i_calendar.png);
+}
+#rezon-forms .delete 
+{
+	background-image: url(../img/ie/i_delit.png);
+}
+
+
+.header .login:before 
+{
+    background-image: url("../img/ie/i_login.png");
+}
+.header .registration:before 
+{
+    background-image: url("../img/ie/i_registration.png");
+}
+
+
+.header .i_avia:before
+{
+	background-image: url(../img/ie/i_avia.png);
+}
+.header .i_train:before
+{
+	background-image: url(../img/ie/i_train.png);
+}
+.header .i_deals:before
+{
+	background-image: url(../img/ie/i_deals.png);
+}
+
+
+.sort-type.icon .s_columns 
+{
+    background-image: url("../img/ie/s_columns.png");
+}
+.sort-type.icon .s_tiles 
+{
+    background-image: url("../img/ie/s_tiles.png");
+}
+.sort-type.icon .s_blocks 
+{
+    background-image: url("../img/ie/s_blocks.png");
+}
+.sort-type.icon .s_lines 
+{
+    background-image: url("../img/ie/s_lines.png");
+}
+
+
+.social_youtube 
+{
+	background-image: url(../img/ie/s_youtube.png);
+}
+.social_facebook 
+{
+	background-image: url(../img/ie/s_facebook.png);
+}
+.social_twitter 
+{
+	background-image: url(../img/ie/s_twitter.png);
+}
+.social_livejournal 
+{
+	background-image: url(../img/ie/s_livejournal.png);
+}
+.social_vk 
+{
+	background-image: url(../img/ie/s_vk.png);
+}
+
