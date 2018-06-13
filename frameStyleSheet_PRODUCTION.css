@@ -1,0 +1,996 @@
+    /*Main setting*/
+    .gr__aven-tour_galileo_com_ua{
+        background-color: lightgrey!important; 
+    }
+    
+    #rezon-forms{
+        min-height: 415px;
+        overflow: hidden;
+        max-width: 1200px!important;
+        width: 1200px!important;
+        margin: 0 auto;
+        padding: 0px 0 40px 0!important;
+        background-color: transparent!important;
+        /*background-color: darkred!important;*/
+    }
+    
+    body{
+       background-color: transparent!important;column_child0
+    
+    }
+    body #rezon-forms{
+        width: 100%;
+        margin-top: 0px;
+        background-color: #444243;
+    }
+    /*main wrapper*/
+    .content{
+        max-width: 100%;
+    }
+    
+    #main{
+        min-height: 100vh;
+        overflow: hidden;
+    }
+    
+    
+    #rezon-forms .row, #rezon-forms .direct_flight{
+        padding: 15px 0px 15px 0px;
+    }
+    /*avia wrapper*/
+    #rezon-forms{
+        max-width: 100%;
+        padding: 30px 0px 40px 0px;
+    }
+    #row_child1 {
+        border-radius: 5px 0px 0px 5px;
+    }
+    #row_child6 {
+        border-radius: 0px;
+    }
+    #rezon-forms .book-range .selected-value:hover, 
+    #rezon-forms .book-class .selected-value:hover, 
+    #rezon-forms .remove:hover, 
+    #rezon-forms .passengers a:hover, 
+    #rezon-forms .carriers .item:hover,
+    #rezon-forms .book-date:hover{
+        /*background-color: rgba(255, 255, 255, 0.1);*/
+        background-color: #7fc3e6;
+        transition: all 0.25s;
+        
+    }
+    #rezon-forms .calendar-dropdown .book-date-wrapper.active .book-date, 
+    #rezon-forms .calendar-dropdown .book-date-wrapper.active .datepicker-button{
+        background-color: #798799;
+    }
+    /***********END***********/
+
+
+
+    /*Hide not using elements*/
+    #header, .content-box, #breadcrumbs, #footer, #empty{
+        display: none;
+    }
+    /*radio button of routes*/
+    #rezon-forms .radio_bull, #rezon-forms .check_bull{
+        display: none;
+    }
+    /*From & To inputs*/
+    .from .item .calendar .selectpicker .selected-value, 
+    .to .item .calendar .selectpicker .selected-value{
+        display: none;
+    }
+    .airport-finder-link{
+        display: none;
+    }
+    .column .carriers{
+        display: none;
+    }
+    /*after date btn with cubes*/
+    #rezon-forms .datepicker-button{
+        display: none;
+    }
+    /*tips above inputs*/
+    #column_child0 label, #column_child1 label, 
+    #column_child8 .passengers label, #column_child8 .book-class .selectpicker-before{
+        display: none;
+    }
+    /*search_btn*/
+    #row_child1 .country{
+        display: none;
+    }
+    /***********END***********/
+    
+
+
+    /*MY JS CHILDREN*/
+    #rezon-forms .column:first-child{
+        margin: 0 0 0 0;
+    }
+    
+    #column_child0{
+        width: 250px!important;
+        margin: 0px;
+        margin-left: 15px!important;
+    }
+    #column_child1{
+        width: 250px!important;
+        float: right;
+        margin-left: 15px!important;
+    }
+    
+    #column_child1 .inside{
+        /*display: none;*/
+    }
+    #column_child8{
+        /*display: none;*/
+        width: 102%!important;
+        margin: 0px;
+        height: 44px;
+    }
+    #column_child9{
+        display: none;
+    }
+    #column_child10{
+        display: none;
+    }
+    #column_child11{
+        /*display: none;*/
+        width: 100%;
+        /*width: 10%!important;*/
+    }
+    #row_child1{
+        background-color:rgba(22, 155, 220, 1);
+        width: 713px;
+        float: left;
+        display: inline-block;
+        margin: 0px;
+    }
+    #row_child6{
+        background-color:rgba(22, 155, 220, 1);
+        width: 365px;
+        margin: 0px;
+        display: inline-block;
+        padding-left: 0px;
+    }
+    
+    #row_child7{
+        width: 116px!important;
+        margin: 0px!important;
+        background: red;
+        display: inline-block;
+        height: 70px!important;
+        padding: 0!important;
+        position: relative!important;
+        border-radius: 0px 5px 5px 0px!important;
+        right: 0px!important;
+        border: 2px solid #007AE5;
+        background-color: Transparent;
+    }
+    
+    #tr_child2{
+        display: inline-block!important;
+        width: 100%!important;
+    }
+    #tr_child4{
+        display: inline-block!important;
+        width: 100%!important;
+    }
+    /***********END***********/    
+    
+
+    
+    /*fly top elements*/
+    #rezon-forms .direct{
+        text-align: left;   
+    }
+    #rezon-forms .direct .active{
+        color: white;
+        
+    }
+     #rezon-forms .direct label{
+         font-size: 14px;
+         color: grey;
+    }
+    
+    #rezon-forms .column{
+        float: left;
+    }
+    /***********END***********/    
+    
+   
+    
+    /*INPUTS TO&FROM*/
+    .from .item .inside, .to .item .inside{
+        float: left;
+    }
+    #rezon-forms .from .inside, 
+    #rezon-forms .to .inside{
+        height: 24px;
+        width: 100%;
+        border: none;
+        border-bottom: none;
+        border-radius: 5px;
+        position: static;
+    }
+    #rezon-forms .text-fade{
+        border-radius: 5px;
+    }
+    
+    #rezon-forms .to .inside{
+        position: absolute;
+        /*left: -83px;*/
+    }
+    
+    #column_child1 .calendar{
+        float: right;
+    }
+    
+    #column_child0 .calendar{
+        position: absolute;
+        right: -354px;
+    }
+    #rezon-forms .book-from, #rezon-forms .book-to{
+        height: 23px;
+    }
+    #rezon-forms #column_child0 .delete{
+       /*display: none;*/
+       right: 8px;
+       top: 21px;
+    }
+    
+    #rezon-forms #column_child1 .delete{
+        top: 21px;
+        right: 3px;
+    }
+    
+    #rezon-forms #column_child0 .iata{
+        font-size: 14px;
+        right: 5px;
+        top: 4px;
+    }
+    
+    #rezon-forms #column_child1 .iata{
+        font-size: 14px;
+        top: 4px;
+        right: 3px;
+    }
+    
+    #rezon-forms #column_child0 .twitter-typeahead{
+        background-image: url('http://webdev-pages.esy.es/aven-tour-support/img/plane_to.png');
+        background-size: 10%;
+        background-repeat: no-repeat;
+        background-position-x: 5px;
+    }
+    
+    #column_child0 .item .inside .book-from{
+        width: 90%;
+        float: right;
+        /*margin-right: 15%;*/
+    }
+    
+    #row_child1 #column_child1 .twitter-typeahead{
+        background-image: url('http://webdev-pages.esy.es/aven-tour-support/img/plane_from.png');
+        background-size: 10%;
+        background-repeat: no-repeat;
+        background-position-x: 5px;
+    }
+    
+    #column_child1 .item .inside .book-to{
+        width: 90%;
+        float: right;
+    }
+    /*FADE ELEMS*/
+    #rezon-forms .text-fade{
+        height: 44px;
+        border-right: 20px solid #fff;
+    }
+    /***********END***********/   
+
+
+    
+    /*Dates*/
+    #rezon-forms .calendar{
+        width: 75px;
+        height: 42px;
+    }
+    #rezon-forms .calendar{
+        border-radius: 5px;
+        background: none;
+        border: none;
+    }
+    
+    #column_child1 .calendar{
+        left: 166px;
+    }
+    #rezon-forms .book-date{
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .from .item .calendar, .to .item .calendar{
+        float: left;
+    }
+    #rezon-forms #row_child1 .book-date{
+        height: 36px;
+        /*width: 100%;*/
+        padding: 4px 5px 4px 5px
+    }
+ 
+    #rezon-forms #column_child0 .book-date{
+        border-radius: 5px 0px 0px 5px;
+    }
+    #rezon-forms #column_child1 .book-date{
+        border-radius: 0px 5px 5px 0px;
+        /*border-left: 1px solid white;*/
+    }
+    
+    #rezon-forms .book-date-wrapper{
+        width: 100%;
+    }
+    
+    #rezon-forms .book-date{
+        /*background: white;*/
+        /*color: #798799;*/
+        
+    }
+    #rezon-forms .selectpicker{
+        margin-left: 84px;
+    }
+    .missing_sec_date{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: -16px;
+        bottom: 0;
+        margin: auto;
+        text-align: center;
+        line-height: 42px;
+        color: white;
+    }
+    
+    #row_child0 .radio-group label:last-child{
+        display: none;
+    }
+    
+    /*HIDDEN CONTENT*/
+    .dates-item-row .dates-item{
+        width: 256px!important;
+        /*height: 100px!important;*/
+        margin-left: 438px!important;
+        /*display: block!important;*/
+    }
+    
+    .dates-item-row .datepicker-col{
+        display: none;
+    }
+    .dates-item-row .datepicker-col:first-child{
+        display: block;
+    }
+    #rezon-forms .dates-item-row .no-visiblity{
+        visibility: visible;
+    }
+    .dates-item-row .dates-item .book_from_date-datapicker{
+        width: 100%;
+    }
+    /***********END***********/ 
+    
+
+    
+    /*Passangers*/
+    #rezon-forms #column_child11 .yellow{
+        float: none;
+        min-width: 0px!important;
+        width: 90px;
+        font-size: 14px;
+        height: 90px;
+        border-radius: 50%;
+        background-color: transparent;
+        padding-left: 21px;
+        
+        }
+    #rezon-forms .passengers{
+        width: 200px;
+        margin: 0px;
+        float: left;
+        height: 42px;
+    }
+    .passengers label {
+        width: 100%;
+        background-color: Gold;
+    }
+    #rezon-forms .passengers .switch{
+        width: 100%;
+        height: 42px;
+    }
+    #avia-form-shoot .book-range, #avia-form-shoot .book-class{
+        margin: 0px;
+        display: inline-block;
+        width: 140px;
+        margin-left: 10px;
+    }
+    #rezon-forms .passengers .switch .passengers-text{
+        line-height: 42px;
+    }
+    
+    #column_child8 .select-age{
+        width: 200px;
+        top: 43px;
+        border-radius: 0px 0px 5px 5px;
+    }
+ 
+    #rezon-forms .radio-group-label .gal-btn-group.radio-supplement label{
+        padding: 3px 6px;
+    }
+    /***********END***********/
+    
+    
+    
+    /*PASSENGERS HIDDEN CONTENT*/
+    .select-age{
+        /*display: block!important;*/
+    }
+    
+    #rezon-forms .select-age{
+        border-top: none;
+    }
+    
+    #rezon-forms .select-age table{
+        margin: 0px auto 0px;
+    }
+    
+    #rezon-forms .radio-group-label .gal-btn-group.radio-supplement label{
+        padding: 0;
+    }
+    
+    #rezon-forms .select-age td.tera{
+        padding: 0px 8px 0px 8px;
+    }
+    
+    #rezon-forms .select-age td{
+        padding: 3px 20px 0 3px;
+    }
+    
+    #tr_child2 .tera{
+        display: block;
+        width: 100%;
+        text-align: center;
+        height: 30px;
+    }
+    #tr_child4 .tera{
+        display: block;
+        width: 100%;
+        text-align: center;
+        height: 30px;
+    }
+    #tr_child2 td{
+        display: block;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+    }
+    #tr_child4 td{
+        display: block;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+    }
+    
+    #tr_child2 td .gal-btn-group,
+    #tr_child4 td .gal-btn-group{
+        width: 100%;
+    }
+    
+    #rezon-forms .radio-group-label .gal-btn-group.radio-supplement label.less-bl{
+        background-color:rgba(0, 191, 255);
+    }
+    #rezon-forms .radio-group-label .gal-btn-group label:hover, #rezon-forms .radio-group-label .gal-btn-group.radio-supplement label.active:hover, #rezon-forms .radio-group-label .gal-btn-group.radio-supplement label.lessed, #rezon-forms .radio-group-label .gal-btn-group.radio-supplement label.less{
+        background-color:rgba(0, 191, 255, 0.5);
+    }
+    
+    #column_child11 a .yellow{
+        /*border-radius: 50%!important;*/
+        /*width: 90px!important;*/
+        /*height: 90px!important;*/
+    }
+        #tr_child2 .tera,
+    #tr_child4 .tera{
+        text-align: center!important;
+        margin-top: 15px;
+    }
+    #tr_child2 .gal-btn-group label,
+    #tr_child4 .gal-btn-group label{
+        width: 35px;
+        height: 35px;
+        /*background: red;*/
+        border: 1px solid #bdc6d7;
+        line-height: 35px;
+        display: inline-block!important;
+        float: none!important;
+        border-width: 1px!important;
+        border-radius: 5px;
+    }
+    #rezon-forms .radio-group-label .gal-btn-group label:first-child{
+        border-radius: 5px;
+    }
+    #tr_child2 .gal-btn-group,
+    #tr_child4 .gal-btn-group{
+        border: none!important;
+    }
+    
+    #tr_child2 td:last-child,
+    #tr_child4 td:last-child{
+        height: 60px;
+    }
+    #rezon-forms .radio-group-label .reset{
+        right: 0;
+        top: -30px;
+    }
+    #tr_child2 .gal-btn-group .active,
+    #tr_child4 .gal-btn-group .active{
+        background-color: rgba(0,191,255,.5)!important;
+    }
+    
+    /***********END***********/ 
+
+    
+    /*CLASS*/
+    #row_child6 .book-class .selectpicker{
+        float: right;    
+    }
+    #rezon-forms .selectpicker.standalone .selected-value{
+        height: 42px;
+        line-height: 42px;
+    }
+    #row_child6 .book-class .selectpicker {
+        width: 95%;
+        margin: 0px;
+    }
+    #row_child6 .book-class .selectpicker-before{
+        width: 100%;
+        margin: 0px;
+        line-height: 20px;
+    }
+    
+    
+    /*ERRORS*/
+    #column_child0 .has-error .error-box{
+        position: absolute!important;
+        top: 40px;
+        width: 230px;
+        height: 44px;
+    }
+    
+    #column_child1 .has-error .error-box{
+        position: absolute!important;
+        top: 40px;
+        width: 231px;
+        height: 44px;
+        left: 0px;
+    }
+    
+    
+    
+    /*SEARCH*/
+    .search_btn_new{
+        /*background-color: Transparent;*/
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+        width: 116px;
+        height: 70px;
+        /*background-color:#007AE5;*/
+        background-color:rgba(0, 122, 229, 1);
+        transition: all 0.25s;
+        color: white;
+        font-size: 16px;
+        letter-spacing: 1.0px;
+    }
+    .search_btn_new:hover{
+        background-color: #7fc3e6;
+        color: white;
+        transition: all 0.25s;
+    }
+
+
+
+/*☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻ *** T A B L E   D E V I C E S *** ☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻*/     
+@media (max-width: 1200px) {
+    
+    /*MAIN SETTINGS*/
+   #rezon-forms{
+        min-height: 500px;
+        overflow: hidden;
+        max-width: 600px!important;
+        width: 600px!important;
+        padding: 0px 0 40px 0!important;
+        background-color: transparent!important;
+        /*background-color: darkred!important;*/
+    } 
+    #rezon-forms .row, #rezon-forms .direct_flight{
+        padding: 10px 0 10px 0;
+    }
+    #row_child1,
+    #row_child6{
+        width: 100%;
+        border-radius: 5px;
+    }
+    #column_child0,
+    #column_child1{
+        width: 277.5px!important;
+    }
+    #row_child6{
+        margin-top: 15px!important;
+    }
+    #column_child0 .calendar{
+        left: 0;
+        z-index: 99;
+        top: 78px;
+    }
+    #column_child1 .calendar{
+        left: 0;
+        z-index: 99;
+        top: 78px;
+        position: absolute!important;
+    }
+     #column_child1 .calendar{
+        margin-left: -183px!important;
+    }
+    #column_child1 .calendar .book-date{
+        margin: 0;
+    }
+    #column_child8 .book-class{
+        clear: none!important;
+        float: right!important;
+        margin-right: 27px
+    }
+    #rezon-forms #column_child0 .book-date,
+    #rezon-forms #column_child1 .book-date{
+        border-radius: 5px;
+        border: 1px solid white;
+    }
+    
+    #rezon-forms .book-date{
+        width: 83px;
+    }
+    #column_child8 .passengers{
+        clear: none!important;
+        /*float: right!important;*/
+        margin-left: 235px;
+    }
+    /*HIDDEN CONTENT*/
+    .dates-item-row .dates-item{
+        width: 256px!important;
+        /*height: 100px!important;*/
+        margin-left: 13px!important;
+        /*display: block!important;*/
+        top: 90px;
+    }
+    
+    /*SEARCH*/
+    #row_child7{
+        width: 100%!important;
+        border: none;
+        height: 50px!important;
+        margin-top: 10px!important;
+    }
+    #column_child11{
+        width: 200px!important;
+        height: 100%;
+        margin: auto;
+        float: none!important;
+    }
+    #column_child11 .search_btn_new{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    
+    
+    
+    
+}
+
+
+ 
+
+
+/*☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻ *** M O B I L E   D E V I C E S *** ☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻*/     
+@media (max-width: 600px) {
+    
+    /*MAIN SETTINGS*/
+    #rezon-forms{
+        min-height: 620px;
+        overflow: hidden;
+        max-width: 100%!important;
+        width: 100%!important;
+        padding: 0px 0 40px 0!important;
+        /*background-color: darkred!important;*/
+    }
+    #rezon-forms .column.from.calendar-dropdown+.column.to{
+        display: inline-block;
+    }
+    /******END******/
+    
+
+
+    /*HEADER*/
+    #row_child0{
+        margin-top: 15px!important;
+    }
+    #rezon-forms .direct{
+       text-align: center;
+    }
+    /******END******/
+    
+
+
+    /*INPUTS MAIN*/
+    #row_child1{
+       width: 100%;
+       background-color: transparent!important; 
+    }
+    #column_child0,
+    #column_child1{
+        border: 1px solid #169BDC;
+        border-radius: 5px;
+    }
+    #rezon-forms #column_child0 .twitter-typeahead,
+    #rezon-forms #column_child1 .twitter-typeahead{
+       background-size: 7%; 
+       background-position-y: center;
+       background-position-x: 10px;
+    }
+    #rezon-forms .row, #rezon-forms .direct_flight{
+       padding: 0px;
+    }
+    /******END******/
+    
+
+
+    /*INPUT TO*/
+    #column_child0{
+       width: 90%!important;
+       margin: 15px 5% 15px 5%!important;
+    }
+    #rezon-forms .text-fade{
+        display: none;
+    }
+    #rezon-forms #column_child0 .iata{
+        font-size: 14px;
+        right: 10px;
+        top: 4px;
+    }
+    #column_child0 .item .inside .book-from{
+        width: 80%;
+        margin-right: 10%;
+    }
+    /******END******/
+    
+
+
+    /*INPUT FROM*/
+    #column_child1{
+        width: 90%!important;
+        margin: 15px 5% 15px 5%!important;
+        height: 44px;
+    }
+    #rezon-forms #column_child1 .iata{
+        font-size: 14px;
+        top: 4px;
+        right: 3px;
+    }
+    #column_child1 .item .inside .book-to{
+        width: 80%;
+        margin-right: 10%;
+    }
+    /******END******/
+        
+
+
+    /*DATES*/
+    #rezon-forms .calendar{
+        width: 34%;
+    }
+    #rezon-forms #row_child1 .book-date{
+        padding: 0px;
+    }
+   
+    #column_child0 .calendar{
+        margin-top: 67px!important;
+        left: 6%;
+    }
+     #column_child1 .calendar{
+        top: 69px!important; 
+        height: 50%;
+        right: 6%;
+        left: auto;
+        /*margin-left: 10px!important;*/
+     }
+    #column_child0 .calendar .book-date,
+    #column_child1 .calendar .book-date{
+        width: 100%!important;
+        height: 44px!important;
+    }
+    #column_child1 .calendar .book-date {
+        margin-left: 0;
+    }
+
+    #column_child1 .calendar{
+        position: absolute;
+        right: 6%;
+    }
+    .dates-item-row .dates-item{
+        width: 250px!important;
+        /*height: 100px!important;*/
+        margin-left: 10%!important;
+        /*display: block!important;*/
+        margin-top: 60px!important;
+        position: absolute;
+    }
+    #rezon-forms .dates-item{
+        top: 0px;
+    }
+    #rezon-forms #column_child0 .book-date,
+    #rezon-forms #column_child1 .book-date{
+        border-radius: 5px;
+        border: 1px solid #169BDC;
+    }
+    #column_child0 .selectpicker,
+    #column_child1 .selectpicker{
+        display: none;
+    }
+    #rezon-forms .book-date{
+        font-size: 13px;
+    }
+    /******END******/
+    
+    
+    
+    /*DATES OPEN*/
+    .dates-item .datepickerGoNext .datepicker-link,
+    .dates-item .datepickerGoPrev .datepicker-link{
+        width: 45px!important;
+        height: 40px!important;
+        /*background: red;*/
+        background-size: 80px auto!important;
+        position: absolute;
+        top: 10px!important;
+    }
+   
+   .dates-item .datepickerGoNext .datepicker-link{
+       right: 0px;
+    }
+    .dates-item .datepickerGoPrev .datepicker-link{
+        left: 0px;
+    }
+    
+    /******END******/
+    
+
+
+    /*PASSENGERS*/
+    #row_child6{
+       margin-top: 78px!important;
+       width: 100%;
+       background-color: transparent!important;
+       /*background-color: red!important;*/
+    }
+    #column_child8{
+        /*background: yellow;*/
+        width: 100%!important;
+    }
+    #rezon-forms .passengers{
+        width: 42%;
+        margin-left: 5%;
+    }
+    
+    #column_child8 .book-class{
+        margin-right: 5%;
+        width: 44%;
+        float: right;
+    }
+    #column_child8 .switch .passengers-icon{
+        display: none;
+    }
+    #rezon-forms .passengers .switch .passengers-text{
+        margin: 0px;    
+    }
+    #rezon-forms #column_child8 .book-class{
+        clear: none;
+    }
+    #column_child8 .passengers .switch{
+        border: 1px solid #169BDC;
+    }
+    #column_child8 .book-class .selectpicker .selected-value{
+        border: 1px solid #169BDC;
+    }
+    #column_child8 .select-age{
+        /*display: block!important;*/
+        width: 213%;
+        border-top: 1px solid #3499db;
+        margin-top: 5px;
+    }
+    #rezon-forms .select-age table{
+        margin: 0;
+        width: 100%;
+    }
+    #rezon-forms .select-age td{
+        padding: 10px;
+    }
+    /******END******/
+    
+    
+    
+    /*PASSENGERS OPEN*/
+    #tr_child2 .tera,
+    #tr_child4 .tera{
+        text-align: center!important;
+        margin-top: 15px;
+    }
+    #tr_child2 .gal-btn-group label,
+    #tr_child4 .gal-btn-group label{
+        width: 35px;
+        height: 35px;
+        /*background: red;*/
+        border: 1px solid #bdc6d7;
+        line-height: 35px;
+        display: inline-block!important;
+        float: none!important;
+        border-width: 1px!important;
+        border-radius: 5px;
+    }
+    #rezon-forms .radio-group-label .gal-btn-group label:first-child{
+        border-radius: 5px;
+    }
+    #tr_child2 .gal-btn-group,
+    #tr_child4 .gal-btn-group{
+        border: none!important;
+    }
+    
+    #tr_child2 td:last-child,
+    #tr_child4 td:last-child{
+        height: 60px;
+    }
+    #rezon-forms .radio-group-label .reset{
+        right: 0;
+        top: -30px;
+    }
+    #tr_child2 .gal-btn-group .active,
+    #tr_child4 .gal-btn-group .active{
+        background-color: rgba(0,191,255,.5)!important;
+    }
+    /******END******/
+
+
+
+    /*SUBMIT BUTTON*/
+     #row_child7{
+       width: 100%!important;
+       /*background-color: red;*/
+       text-align: center;
+       margin-top: 50px!important;
+       height: 50px!important;
+       border: none!important;
+    }
+    .search_btn_new{
+        width: 50%;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid white;
+    }
+    /******END******/
+    
+
+
+    /*IN ONE WAY*/
+    .missing_sec_date{
+        right: 0;
+        line-height: 44px;
+        font-size: 16px;
+    }
+}
